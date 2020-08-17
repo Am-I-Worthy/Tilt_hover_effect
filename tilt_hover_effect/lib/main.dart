@@ -40,17 +40,17 @@ class _MyHomePageState extends State<MyHomePage>
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             TiltWidget(
-                yaxis: (MediaQuery.of(context).size.width / 2) / 2,
+                yaxis: (MediaQuery.of(context).size.width / 2),
                 image: image1,
                 text: 'Cliffs of Cinque Terre',
                 subText: 'Manarola, Italy'),
-            TiltWidget(
-              yaxis: (MediaQuery.of(context).size.width / 2) +
-                  (MediaQuery.of(context).size.width / 2) / 2,
-              image: image2,
-              text: 'Rialto Bridge',
-              subText: 'Venezia, Italy',
-            ),
+            // TiltWidget(
+            //   yaxis: (MediaQuery.of(context).size.width / 2) +
+            //       (MediaQuery.of(context).size.width / 2) / 2,
+            //   image: image2,
+            //   text: 'Rialto Bridge',
+            //   subText: 'Venezia, Italy',
+            // ),
           ],
         ),
       ),
